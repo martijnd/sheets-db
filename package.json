@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "exports": "./dist/index.mjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "tsx watch src/index.ts"
   },
